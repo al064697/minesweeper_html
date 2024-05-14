@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- Esta línea define el tipo de documento a HTML5 -->
+<html lang="en"> <!-- El elemento raíz del documento HTML, el atributo lang define el idioma del documento -->
+<head> <!-- Contiene metadatos/meta-información sobre el documento HTML -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres para el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <title>Minesweeper</title> <!-- Define el título del documento, que se muestra en la barra de título del navegador -->
+    <link rel="stylesheet" href="..\css\styles.css"> <!-- Vincula la hoja de estilos CSS con el documento HTML -->
+    <link rel="icon" href="..\resources\minesweeper.ico"> <!-- Vincula el ícono de la página web
+</head>
+<body> <!-- Contiene el contenido principal que se muestra a los usuarios del navegador web -->
+    <div class="container"> <!-- Un contenedor para otros elementos HTML -->
+        <h1>Minesweeper</h1> <!-- Un encabezado de nivel 1 -->
+        <div class="game-container"> <!-- Un contenedor para el tablero de juego y el panel de información -->
+            <div id="gameboard" class="gameboard"></div> <!-- El tablero de juego -->
+            <div id="info-panel" class="info-panel"> <!-- El panel de información -->
+                <div class="scoreboard"> <!-- El marcador -->
+                    Score: <span id="score">0</span> <!-- El puntaje actual, inicialmente 0 -->
+                </div>
+                <div class="game-status" id="gameStatus">Click to start</div> <!-- El estado del juego, inicialmente 'Click to start' -->
+                <div class="difficulty-level" id="difficultyLevel">Difficulty: Easy (9x9)</div> <!-- El nivel de dificultad, inicialmente 'Easy (9x9)' -->
+            </div>
+        </div>
+        <div class="buttons"> <!-- Un contenedor para los botones -->
+            <button id="newGameBtn" class="btn">New Game</button> <!-- El botón 'New Game' -->
+        </div>
+        <div class="configurations"> <!-- Un contenedor para los botones de configuración -->
+            <button id="increaseDifficultyBtn" class="btn">Increase Difficulty</button> <!-- El botón 'Increase Difficulty' -->
+            <button id="decreaseDifficultyBtn" class="btn">Decrease Difficulty</button> <!-- El botón 'Decrease Difficulty' -->
+        </div>
+    </div>
+    <script src="..\js\script.js"></script> <!-- Vincula el archivo JavaScript con el documento HTML -->
+</body>
+</html>

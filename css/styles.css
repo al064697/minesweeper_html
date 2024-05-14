@@ -1,0 +1,119 @@
+/* Estilos generales */
+
+/* Establece la fuente predeterminada para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Establece el color de fondo del cuerpo del documento */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Contenedor principal */
+
+/* Define estilos para el contenedor principal */
+.container {
+    max-width: 800px; /* Establece el ancho máximo del contenedor */
+    margin: 50px auto; /* Centra el contenedor horizontalmente con un margen superior e inferior */
+    background-color: #fff; /* Establece el color de fondo del contenedor */
+    padding: 20px; /* Agrega relleno interno al contenedor */
+    border-radius: 10px; /* Establece bordes redondeados para el contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Agrega una sombra al contenedor */
+}
+
+/* Título principal */
+
+/* Establece estilos para los encabezados principales */
+h1 {
+    text-align: center; /* Alinea el texto al centro */
+    color: #333; /* Establece el color del texto */
+}
+
+/* Contenedor del juego */
+
+/* Define estilos para el contenedor del juego */
+.game-container {
+    display: flex; /* Establece un contenedor flexible para los elementos internos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos del contenedor */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+}
+
+/* Tablero de juego */
+
+/* Define estilos para el tablero de juego */
+.gameboard {
+    flex: 1; /* Hace que el tablero de juego ocupe todo el espacio disponible */
+    text-align: center; /* Alinea el contenido al centro */
+    background-color: #bbb; /* Establece el color de fondo del tablero */
+    border: 5px solid #666; /* Agrega un borde al tablero */
+    border-radius: 10px; /* Establece bordes redondeados para el tablero */
+    padding: 10px; /* Agrega relleno interno al tablero */
+}
+
+/* Celda del tablero */
+
+/* Define estilos para las celdas del tablero */
+.cell {
+    display: inline-block; /* Hace que las celdas se muestren en línea */
+    width: 30px; /* Establece el ancho de las celdas */
+    height: 30px; /* Establece la altura de las celdas */
+    border: 1px solid #999; /* Agrega un borde delgado a las celdas */
+    background-color: #ddd; /* Establece el color de fondo de las celdas */
+    text-align: center; /* Alinea el contenido al centro */
+    line-height: 30px; /* Establece la altura de línea para centrar verticalmente el contenido */
+    cursor: pointer; /* Cambia el cursor al pasar por encima de las celdas */
+}
+
+/* Panel de información */
+
+/* Define estilos para el panel de información */
+.info-panel {
+    flex: 1; /* Hace que el panel de información ocupe todo el espacio disponible */
+    padding: 20px; /* Agrega relleno interno al panel de información */
+    background-color: #f8f8f8; /* Establece el color de fondo del panel de información */
+    border-radius: 10px; /* Establece bordes redondeados para el panel de información */
+}
+
+/* Panel de puntuación */
+
+/* Define estilos para el panel de puntuación */
+.scoreboard {
+    margin-bottom: 20px; /* Agrega un margen inferior al panel de puntuación */
+    font-size: 20px; /* Establece el tamaño de fuente del panel de puntuación */
+}
+
+/* Estado del juego */
+
+/* Define estilos para el estado del juego */
+.game-status {
+    font-size: 18px; /* Establece el tamaño de fuente del estado del juego */
+    color: #333; /* Establece el color del texto del estado del juego */
+    font-weight: bold; /* Establece el peso de la fuente en negrita para el estado del juego */
+}
+
+/* Botones y configuraciones */
+
+/* Define estilos para los botones y configuraciones */
+.buttons, .configurations {
+    text-align: center; /* Alinea el contenido al centro */
+    margin-top: 20px; /* Agrega un margen superior a los botones y configuraciones */
+}
+
+/* Estilo de los botones */
+
+/* Define estilos para los botones */
+.btn {
+    padding: 10px 20px; /* Agrega relleno interno a los botones */
+    background-color: #007bff; /* Establece el color de fondo de los botones */
+    color: #fff; /* Establece el color del texto de los botones */
+    border: none; /* Elimina los bordes de los botones */
+    border-radius: 5px; /* Establece bordes redondeados para los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima de los botones */
+    margin: 0 10px; /* Agrega un margen entre los botones */
+}
+
+/* Estilo de los botones al pasar el cursor por encima */
+
+/* Define estilos para los botones cuando se pasa el cursor por encima */
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo de los botones cuando se pasa el cursor por encima */
+}
